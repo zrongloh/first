@@ -5,12 +5,12 @@ source 'https://rubygems.org'
 gem 'rails'
 # Use sqlite3 as the database for Active Record
 
-gem 'pg'
-
 group :development do
  gem 'sqlite3'
 # Use SCSS for stylesheets
 end
+
+gem 'pg'
 
 group :assets do
  gem 'sass-rails'
